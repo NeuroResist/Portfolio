@@ -3,6 +3,7 @@ import AboutMe from "./components/AboutMe";
 import { Divider } from "@mui/material";
 import Stack from "./components/Stack";
 import Experience from "./components/Experience";
+import AdditionalInfo from "./components/AdditionalInfo";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
         <Stack />
 
         <Experience />
+
+        <AdditionalInfo />
       </main>
 
       <footer className="text-white">
