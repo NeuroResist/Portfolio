@@ -1,9 +1,10 @@
 import { WORKS } from "./constants";
-import { IExperience } from "./interface";
 
 function Experience() {
   return (
-    <div className="text-white w-[800px] mx-auto">
+    <div className="text-white w-[800px] mx-auto mb-100 flex flex-col">
+      <h2 className="self-center text-3xl mb-32 justify-center">Опыт работы</h2>
+
       {WORKS.map(
         ({
           descriptions,
@@ -17,7 +18,7 @@ function Experience() {
           period,
         }) => (
           <article>
-            <h2 className="text-2xl font-bold">Опыт работы - {period}</h2>
+            <h2 className="text-2xl font-bold">Продолжительность - {period}</h2>
 
             <hr className="mb-6" />
 

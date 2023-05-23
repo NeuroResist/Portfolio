@@ -6,18 +6,25 @@ import Experience from "./components/Experience";
 
 function App() {
   return (
-    <div className="bg-black">
+    <div className="bg-black font-['Roboto']">
       <Header />
+
       <main className="mx-auto container">
         <AboutMe />
-        <Divider sx={{ text: "red" }} textAlign="center">
-          <h3 className="text-[#530FAD]">Навыки</h3>
-        </Divider>
 
         <Stack />
 
         <Experience />
       </main>
+
+      <footer className="text-white">
+        <hr className="border border-[#530FAD] mb-20" />
+
+        <div id="aaaa" className="flex flex-col items-center mb-20">
+          <p>Авторский сайт-портфолио, создан с нуля.</p>
+          <p>Исходники сайта - NeuroResist</p>
+        </div>
+      </footer>
     </div>
   );
 }
