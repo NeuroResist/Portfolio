@@ -6,10 +6,10 @@ import Experience from "./components/Experience";
 
 function App() {
   return (
-    <div className="bg-black font-['Roboto']">
+    <div className="text-white bg-black font-['Roboto'] mx-auto container px-20">
       <Header />
 
-      <main className="mx-auto container">
+      <main>
         <AboutMe />
 
         <Stack />
@@ -21,7 +21,9 @@ function App() {
         <hr className="border border-[#530FAD] mb-20" />
 
         <div id="aaaa" className="flex flex-col items-center mb-20">
-          <p>Авторский сайт-портфолио, создан с нуля.</p>
+          <p className="text-center">
+            Авторский сайт-портфолио, создан с нуля и имеет адаптивную верстку.
+          </p>
           <p>Исходники сайта - NeuroResist</p>
         </div>
       </footer>

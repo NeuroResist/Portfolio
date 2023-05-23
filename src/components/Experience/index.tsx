@@ -2,7 +2,7 @@ import { WORKS } from "./constants";
 
 function Experience() {
   return (
-    <div className="text-white w-[800px] mx-auto mb-100 flex flex-col">
+    <div className="text-white max-w-[800px] mx-auto mb-100 flex flex-col">
       <h2 className="self-center text-3xl mb-32 justify-center">Опыт работы</h2>
 
       {WORKS.map(

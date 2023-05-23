@@ -2,7 +2,7 @@ import { LINES } from "./constants";
 
 function AboutMeInLines() {
   return (
-    <div className="w-[500px] h-[400px] mr-40 rounded-xl bg-[#530FAD] -skew-y-6 px-40 py-60">
+    <div className="w-[500px] h-[400px] mr-40 rounded-xl bg-[#530FAD] -skew-y-6 px-40 py-60 max-sm:hidden">
       <div className="skew-y-6 h-full rounded-md bg-[#180E38] p-16">
         <div className="flex mb-20">
           <p className="rounded-full w-16 h-16 bg-red-500" />

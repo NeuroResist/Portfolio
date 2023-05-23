@@ -1,12 +1,24 @@
+import clsx from "clsx";
+
 import AboutMeInLines from "./AboutMeInLines";
+
 import { CONTACTS } from "./constants";
 
 function AboutMe() {
+  const smallDevice = "max-lg:items-start max-lg:flex-row";
+  const largeDevice = "max-lg:flex-col-reverse max-lg:items-center";
+
   return (
-    <div className="flex text-white justify-center mx-auto container relative pb-[150px]">
+    <div
+      className={clsx(
+        "flex justify-center relative pb-[150px] max-lg:pb-48",
+        smallDevice,
+        largeDevice
+      )}
+    >
       <AboutMeInLines />
 
-      <article className="p-32 max-w-[500px]">
+      <article className="flex flex-col p-32 max-w-[500px] max-lg:mb-40 max-sm:pb-0">
         <section className="mb-32">
           <h3 className="font-bold text-2xl">
             Привет, меня зовут Ярослав Орлов
@@ -19,8 +31,8 @@ function AboutMe() {
           </p>
         </section>
 
-        <section>
-          <h4 className="text-2xl">Контакты:</h4>
+        <section className="flex flex-col max-lg:self-center">
+          <h4 className="text-2xl max-lg:self-center">Контакты:</h4>
 
           <ul className="flex">
             {Object.entries(CONTACTS).map(([key, value]) => (
