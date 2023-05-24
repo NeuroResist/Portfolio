@@ -2,19 +2,16 @@ import clsx from "clsx";
 
 import AboutMeInLines from "./AboutMeInLines";
 
-import { CONTACTS } from "./constants";
+import Contacts from "./Contacts";
 
 function AboutMe() {
-  const smallDevice = "max-lg:items-start max-lg:flex-row";
-  const largeDevice = "max-lg:flex-col-reverse max-lg:items-center";
+  const largeDevice =
+    "max-lg:pb-48 max-lg:items-start max-lg:flex-row max-lg:flex-col-reverse max-lg:items-center";
 
   return (
     <div
-      className={clsx(
-        "flex justify-center relative pb-[150px] max-lg:pb-48",
-        smallDevice,
-        largeDevice
-      )}
+      id="aboutMe"
+      className={clsx("flex justify-center relative pb-[150px]", largeDevice)}
     >
       <AboutMeInLines />
 
@@ -31,17 +28,7 @@ function AboutMe() {
           </p>
         </section>
 
-        <section className="flex flex-col max-lg:self-center">
-          <h4 className="text-2xl mb-4 max-lg:self-center">Контакты:</h4>
-
-          <ul className="flex">
-            {Object.entries(CONTACTS).map(([key, value]) => (
-              <li key={key} className="mx-2">
-                <a href={key}>{value}</a>
-              </li>
-            ))}
-          </ul>
-        </section>
+        <Contacts />
       </article>
     </div>
   );

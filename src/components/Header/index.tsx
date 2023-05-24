@@ -1,6 +1,7 @@
 import FavoriteIcon from "@mui/icons-material/Favorite";
-import { Button } from "@mui/material";
+
 import Navigation from "./Navigation";
+import NeonButton from "./NeonButton";
 
 function Header() {
   return (
@@ -9,13 +10,7 @@ function Header() {
 
       <Navigation />
 
-      <Button
-        variant="contained"
-        sx={{ marginRight: "10px", bgcolor: "#530FAD" }}
-        className="max-lg:!hidden"
-      >
-        Резюме
-      </Button>
+      <NeonButton />
     </header>
   );
 }

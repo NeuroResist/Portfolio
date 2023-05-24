@@ -16,7 +16,7 @@ function AboutMeInLines() {
           <span className="italic text-[#a67eca]"> = </span> {"{"}
           <ul>
             {Object.entries(LINES).map(([key, val]) => (
-              <li className="pl-20 text-violet-400" key={key}>
+              <li className="pl-20 text-violet-400" key={`line_${key}`}>
                 <span className="text-white">{key}</span>:
                 <span className="text-[#c5a77c]"> {val}</span>
               </li>
