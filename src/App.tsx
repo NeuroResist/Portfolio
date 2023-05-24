@@ -1,6 +1,5 @@
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
-import { Divider } from "@mui/material";
 import Stack from "./components/Stack";
 import Experience from "./components/Experience";
 import AdditionalInfo from "./components/AdditionalInfo";
@@ -9,7 +8,6 @@ function App() {
   return (
     <div className="text-white bg-black font-['Roboto'] mx-auto container px-20">
       <Header />
-
       <main>
         <AboutMe />
 

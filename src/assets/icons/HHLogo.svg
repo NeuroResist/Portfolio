@@ -1,9 +1,7 @@
-function HHLogo() {
-  return (
-    <svg
+     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="32"
-      height="32"
+      width="50"
+      height="50"
       viewBox="0 0 70 70"
     >
       <g fill="none">
@@ -28,7 +26,3 @@ function HHLogo() {
         </g>
       </g>
     </svg>
-  );
-}
-
-export default HHLogo;

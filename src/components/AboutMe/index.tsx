@@ -32,7 +32,7 @@ function AboutMe() {
         </section>
 
         <section className="flex flex-col max-lg:self-center">
-          <h4 className="text-2xl max-lg:self-center">Контакты:</h4>
+          <h4 className="text-2xl mb-4 max-lg:self-center">Контакты:</h4>
 
           <ul className="flex">
             {Object.entries(CONTACTS).map(([key, value]) => (

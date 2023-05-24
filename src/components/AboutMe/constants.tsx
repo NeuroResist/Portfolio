@@ -1,8 +1,9 @@
 import AdsClickIcon from "@mui/icons-material/AdsClick";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import TelegramIcon from "@mui/icons-material/Telegram";
-import HHLogo from "assets/icons/HHLogo";
-import GmailLogo from "assets/icons/GmailLogo";
+
+import { ReactComponent as HHLogo } from "assets/icons/HHLogo.svg";
+import { ReactComponent as GmailLogo } from "assets/icons/gmailLogo.svg";
 
 export const LINES = {
   fullName: "Орлов Ярослав",
@@ -32,10 +33,12 @@ export const LINES = {
 
 export const CONTACTS = {
   "https://t.me/only1nely": (
-    <TelegramIcon fontSize="large" className="text-[#0088cc]" />
+    <TelegramIcon className="text-[#0088cc] !text-6xl" />
   ),
   "https://voronezh.hh.ru/applicant/resumes/view?resume=96d5392eff0bf80b750039ed1f506b54336565":
-    <HHLogo />,
+    <HHLogo className="mt-6" />,
   "mailto:yaroslav.orlov.work@gmail.com": <GmailLogo />,
-  "https://github.com/NeuroResist": <GitHubIcon sx={{ fontSize: "32px" }} />,
+  "https://github.com/NeuroResist": (
+    <GitHubIcon className="mt-6 !text-[48px]" />
+  ),
 };
