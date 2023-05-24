@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="text-white bg-black font-roboto mx-auto container px-20">
+    <>
       <Header />
 
       <main>
@@ -21,7 +21,7 @@ function App() {
       </main>
 
       <Footer />
-    </div>
+    </>
   );
 }
 
