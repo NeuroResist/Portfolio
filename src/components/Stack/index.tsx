@@ -1,4 +1,5 @@
 import Technology from "./Technology";
+
 import { ACTUAL_STACK } from "./constants";
 
 function Stack() {
