@@ -7,15 +7,15 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="text-white bg-black font-['Roboto'] mx-auto container px-20">
+    <div className="text-white bg-black font-roboto mx-auto container px-20">
       <Header />
 
       <main>
         <AboutMe />
 
-        <Stack />
-
         <Experience />
+
+        <Stack />
 
         <AdditionalInfo />
       </main>

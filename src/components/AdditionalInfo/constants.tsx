@@ -13,7 +13,7 @@ export const INFO: Record<string, { img: ReactNode; text: string[] }> = {
     img: <Mentoring />,
     text: ["Есть опыт менторинга человека и курирования разработки."],
   },
-  "Иностранный язык": {
+  "Иностранные языки": {
     img: <Language />,
     text: ["Русский — родной", "Английский — B1"],
   },

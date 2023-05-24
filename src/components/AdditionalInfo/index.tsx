@@ -3,7 +3,7 @@ import { INFO } from "./constants";
 function AdditionalInfo() {
   return (
     <article id="additionalInformation" className="flex flex-col mb-100">
-      <h2 className="self-center text-3xl mb-48 justify-center underline underline-offset-4 decoration-sky-500">
+      <h2 className="self-center text-3xl mb-48 justify-center underline underline-offset-4 decoration-sky-500 text-center">
         Дополнительная информация
       </h2>
 

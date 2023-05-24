@@ -29,7 +29,7 @@ function Experience() {
               <hr className="mb-6" />
 
               <div className="flex">
-                <p className="min-w-[150px]">
+                <p className="min-w-[150px] max-sm:hidden">
                   <time dateTime={from.startDate}>{from.startTime}</time>—
                   {isEnd ? (
                     <time dateTime={to?.startDate}>{to?.endTime}</time>

@@ -2,7 +2,7 @@ import { NAV } from "./constants";
 
 function Navigation() {
   return (
-    <nav>
+    <nav className="max-sm:hidden">
       <ul className="flex justify-center flex-row [&>*]:px-20 text-lg text-white">
         {Object.entries(NAV).map(([key, value]) => (
           <li

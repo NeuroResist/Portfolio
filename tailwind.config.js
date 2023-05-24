@@ -60,7 +60,7 @@ module.exports = {
       },
     },
     fontFamily: {
-      roboto: ['"Roboto"'],
+      roboto: ["Roboto", "sans-serif"],
     },
   },
   plugins: [],
