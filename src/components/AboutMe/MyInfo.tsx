@@ -1,4 +1,4 @@
-import me from "assets/icons/me.jpg";
+import me from "assets/icons/myPhoto.jpg";
 
 function MyInfo() {
   return (
@@ -6,7 +6,7 @@ function MyInfo() {
       <img
         src={me}
         alt="мое фото"
-        className="w-[250px] h-[250px] mb-40 hidden max-sm:flex"
+        className="w-[290px] h-[250px] mb-40 hidden max-sm:flex rounded-xl"
       />
       <section className="mb-32 max-sm:flex max-sm:flex-col max-sm:items-center">
         <h3 className="font-bold text-2xl">Привет, меня зовут Ярослав Орлов</h3>

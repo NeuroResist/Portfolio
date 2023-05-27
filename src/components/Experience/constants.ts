@@ -2,8 +2,8 @@ import { IExperience } from "./interface";
 
 export const WORKS: IExperience[] = [
   {
-    period: "1 год 5 месяцев",
-    from: { startDate: "2022-01-26", startTime: "Январь 2022" },
+    period: "2 год 1 месяцев",
+    from: { startDate: "2021-04-26", startTime: "Апрель 2021" },
     to: { startDate: undefined, endTime: undefined },
     isEnd: false,
     companyName: "Лига Цифровой Экономики",
