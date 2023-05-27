@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.4c0e36fc.css",
+    "main.js": "/portfolio/static/js/main.6f0fa28a.js",
+    "static/media/myPhoto.jpg": "/portfolio/static/media/myPhoto.09e065484fe0c757e2b2.jpg",
+    "static/media/emotionLogo.svg": "/portfolio/static/media/emotionLogo.b5b885ef44690af09ecf8a39400c75c2.svg",
+    "static/media/effectorLogo.svg": "/portfolio/static/media/effectorLogo.4b600b97f913069805b418ef266b0d75.svg",
+    "static/media/twinMacroLogo.svg": "/portfolio/static/media/twinMacroLogo.605ae4e6a0126e7fd65fef2822374bad.svg",
+    "static/media/reactLogo.svg": "/portfolio/static/media/reactLogo.7a4752ec295dfaf32108d52df3ff5704.svg",
+    "static/media/dayjsLogo.svg": "/portfolio/static/media/dayjsLogo.c5f6b21c294cdfbbe054637ac0041279.svg",
+    "static/media/reactHookFormLogo.svg": "/portfolio/static/media/reactHookFormLogo.f78e037078e332c7ab00862d5b1ba667.svg",
+    "static/media/reactRouterLogo.svg": "/portfolio/static/media/reactRouterLogo.7f8a91e870ee46e5e91477cbed4e0707.svg",
+    "static/media/lodashLogo.svg": "/portfolio/static/media/lodashLogo.19ffd85fbfd4d1acfb7df4857dcc2533.svg",
+    "static/media/gitLogo.svg": "/portfolio/static/media/gitLogo.d8c89e3af0f08df377d86e6f5591f04f.svg",
+    "static/media/mentoring.svg": "/portfolio/static/media/mentoring.d18c8ce2933dda47a16475a7b6d1489e.svg",
+    "static/media/language.svg": "/portfolio/static/media/language.403a1d582da052848ca6122c4c36ef5f.svg",
+    "static/media/HHLogo.svg": "/portfolio/static/media/HHLogo.810c75752f4d45a825156b1cd06f8b89.svg",
+    "static/media/educationInfo.svg": "/portfolio/static/media/educationInfo.0b1644d0ac0a294b3c1e496f4c608587.svg",
+    "static/media/tailwindLogo.svg": "/portfolio/static/media/tailwindLogo.017e1e304e12384d156d384f40a4b5f8.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/gmailLogo.svg": "/portfolio/static/media/gmailLogo.798096451e6cd73d293851eb3256d164.svg",
+    "static/media/typescriptLogo.svg": "/portfolio/static/media/typescriptLogo.ced98752566ac4b3a366e8e41677cd67.svg",
+    "main.4c0e36fc.css.map": "/portfolio/static/css/main.4c0e36fc.css.map",
+    "main.6f0fa28a.js.map": "/portfolio/static/js/main.6f0fa28a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c0e36fc.css",
+    "static/js/main.6f0fa28a.js"
+  ]
+}
